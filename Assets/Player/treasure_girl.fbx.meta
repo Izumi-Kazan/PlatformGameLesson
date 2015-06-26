@@ -1,0 +1,1265 @@
+fileFormatVersion: 2
+guid: 1a1276557b97b46ed96f9e5d3cd82351
+timeCreated: 1435301341
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Back_0
+    100002: body
+    100004: Chest
+    100006: cloth
+    100008: cloth2
+    100010: face
+    100012: hair
+    100014: hair2
+    100016: hair_tale_1
+    100018: hair_tale_2
+    100020: hair_tale_end
+    100022: Head
+    100024: head_ac
+    100026: Head_end
+    100028: Hips
+    100030: left_s_hair_1
+    100032: left_s_hair_2
+    100034: left_s_hair_end
+    100036: LeftAnkle
+    100038: LeftCollar
+    100040: LeftElbow_1
+    100042: LeftHip
+    100044: LeftKnee_1
+    100046: LeftShoulder
+    100048: LeftToe
+    100050: LeftWrist
+    100052: Mesh
+    100054: Neck_1
+    100056: right_s_hair_1
+    100058: right_s_hair_2
+    100060: right_s_hair_end
+    100062: RightAnkle
+    100064: RightCollar
+    100066: RightElbow_1
+    100068: RightHip
+    100070: RightKnee_1
+    100072: RightShoulder
+    100074: RightToe
+    100076: RightWrist
+    100078: //RootNode
+    400000: Back_0
+    400002: body
+    400004: Chest
+    400006: cloth
+    400008: cloth2
+    400010: face
+    400012: hair
+    400014: hair2
+    400016: hair_tale_1
+    400018: hair_tale_2
+    400020: hair_tale_end
+    400022: Head
+    400024: head_ac
+    400026: Head_end
+    400028: Hips
+    400030: left_s_hair_1
+    400032: left_s_hair_2
+    400034: left_s_hair_end
+    400036: LeftAnkle
+    400038: LeftCollar
+    400040: LeftElbow_1
+    400042: LeftHip
+    400044: LeftKnee_1
+    400046: LeftShoulder
+    400048: LeftToe
+    400050: LeftWrist
+    400052: Mesh
+    400054: Neck_1
+    400056: right_s_hair_1
+    400058: right_s_hair_2
+    400060: right_s_hair_end
+    400062: RightAnkle
+    400064: RightCollar
+    400066: RightElbow_1
+    400068: RightHip
+    400070: RightKnee_1
+    400072: RightShoulder
+    400074: RightToe
+    400076: RightWrist
+    400078: //RootNode
+    4300000: hair
+    4300002: hair2
+    4300004: face
+    4300006: body
+    4300008: cloth
+    4300010: cloth2
+    4300012: head_ac
+    7400000: tg_idle
+    7400002: tg_jump
+    7400004: tg_run
+    7400006: tg_run_first
+    7400008: tg_sliding
+    7400010: tg_walk
+    7400012: tg_walk_back
+    9500000: //RootNode
+    13700000: body
+    13700002: cloth
+    13700004: cloth2
+    13700006: face
+    13700008: hair
+    13700010: hair2
+    13700012: head_ac
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: tg_idle
+      takeName: idle
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/Back_0
+        weight: 1
+      - path: Hips/Back_0/Chest
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder/LeftElbow_1
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder/LeftElbow_1/LeftWrist
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1/Head
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1/hair_tale_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1/hair_tale_2/hair_tale_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1/left_s_hair_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1/left_s_hair_2/left_s_hair_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1/right_s_hair_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1/right_s_hair_2/right_s_hair_end
+        weight: 0
+      - path: Hips/Back_0/Chest/RightCollar
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder/RightElbow_1
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder/RightElbow_1/RightWrist
+        weight: 1
+      - path: Hips/LeftHip
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1/LeftAnkle
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1/LeftAnkle/LeftToe
+        weight: 0
+      - path: Hips/RightHip
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1/RightAnkle
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1/RightAnkle/RightToe
+        weight: 0
+      - path: Mesh
+        weight: 0
+      - path: Mesh/body
+        weight: 0
+      - path: Mesh/cloth
+        weight: 0
+      - path: Mesh/cloth2
+        weight: 0
+      - path: Mesh/face
+        weight: 0
+      - path: Mesh/hair
+        weight: 0
+      - path: Mesh/hair2
+        weight: 0
+      - path: Mesh/head_ac
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: tg_jump
+      takeName: jump
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/Back_0
+        weight: 1
+      - path: Hips/Back_0/Chest
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder/LeftElbow_1
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder/LeftElbow_1/LeftWrist
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1/Head
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1/hair_tale_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1/hair_tale_2/hair_tale_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1/left_s_hair_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1/left_s_hair_2/left_s_hair_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1/right_s_hair_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1/right_s_hair_2/right_s_hair_end
+        weight: 0
+      - path: Hips/Back_0/Chest/RightCollar
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder/RightElbow_1
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder/RightElbow_1/RightWrist
+        weight: 1
+      - path: Hips/LeftHip
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1/LeftAnkle
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1/LeftAnkle/LeftToe
+        weight: 0
+      - path: Hips/RightHip
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1/RightAnkle
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1/RightAnkle/RightToe
+        weight: 0
+      - path: Mesh
+        weight: 0
+      - path: Mesh/body
+        weight: 0
+      - path: Mesh/cloth
+        weight: 0
+      - path: Mesh/cloth2
+        weight: 0
+      - path: Mesh/face
+        weight: 0
+      - path: Mesh/hair
+        weight: 0
+      - path: Mesh/hair2
+        weight: 0
+      - path: Mesh/head_ac
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: tg_run
+      takeName: run
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/Back_0
+        weight: 1
+      - path: Hips/Back_0/Chest
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder/LeftElbow_1
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder/LeftElbow_1/LeftWrist
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1/Head
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1/hair_tale_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1/hair_tale_2/hair_tale_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1/left_s_hair_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1/left_s_hair_2/left_s_hair_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1/right_s_hair_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1/right_s_hair_2/right_s_hair_end
+        weight: 0
+      - path: Hips/Back_0/Chest/RightCollar
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder/RightElbow_1
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder/RightElbow_1/RightWrist
+        weight: 1
+      - path: Hips/LeftHip
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1/LeftAnkle
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1/LeftAnkle/LeftToe
+        weight: 0
+      - path: Hips/RightHip
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1/RightAnkle
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1/RightAnkle/RightToe
+        weight: 0
+      - path: Mesh
+        weight: 0
+      - path: Mesh/body
+        weight: 0
+      - path: Mesh/cloth
+        weight: 0
+      - path: Mesh/cloth2
+        weight: 0
+      - path: Mesh/face
+        weight: 0
+      - path: Mesh/hair
+        weight: 0
+      - path: Mesh/hair2
+        weight: 0
+      - path: Mesh/head_ac
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: tg_run_first
+      takeName: run_first
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/Back_0
+        weight: 1
+      - path: Hips/Back_0/Chest
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder/LeftElbow_1
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder/LeftElbow_1/LeftWrist
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1/Head
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1/hair_tale_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1/hair_tale_2/hair_tale_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1/left_s_hair_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1/left_s_hair_2/left_s_hair_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1/right_s_hair_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1/right_s_hair_2/right_s_hair_end
+        weight: 0
+      - path: Hips/Back_0/Chest/RightCollar
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder/RightElbow_1
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder/RightElbow_1/RightWrist
+        weight: 1
+      - path: Hips/LeftHip
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1/LeftAnkle
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1/LeftAnkle/LeftToe
+        weight: 0
+      - path: Hips/RightHip
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1/RightAnkle
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1/RightAnkle/RightToe
+        weight: 0
+      - path: Mesh
+        weight: 0
+      - path: Mesh/body
+        weight: 0
+      - path: Mesh/cloth
+        weight: 0
+      - path: Mesh/cloth2
+        weight: 0
+      - path: Mesh/face
+        weight: 0
+      - path: Mesh/hair
+        weight: 0
+      - path: Mesh/hair2
+        weight: 0
+      - path: Mesh/head_ac
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: tg_sliding
+      takeName: sliding
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/Back_0
+        weight: 1
+      - path: Hips/Back_0/Chest
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder/LeftElbow_1
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder/LeftElbow_1/LeftWrist
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1/Head
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1/hair_tale_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1/hair_tale_2/hair_tale_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1/left_s_hair_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1/left_s_hair_2/left_s_hair_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1/right_s_hair_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1/right_s_hair_2/right_s_hair_end
+        weight: 0
+      - path: Hips/Back_0/Chest/RightCollar
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder/RightElbow_1
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder/RightElbow_1/RightWrist
+        weight: 1
+      - path: Hips/LeftHip
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1/LeftAnkle
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1/LeftAnkle/LeftToe
+        weight: 0
+      - path: Hips/RightHip
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1/RightAnkle
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1/RightAnkle/RightToe
+        weight: 0
+      - path: Mesh
+        weight: 0
+      - path: Mesh/body
+        weight: 0
+      - path: Mesh/cloth
+        weight: 0
+      - path: Mesh/cloth2
+        weight: 0
+      - path: Mesh/face
+        weight: 0
+      - path: Mesh/hair
+        weight: 0
+      - path: Mesh/hair2
+        weight: 0
+      - path: Mesh/head_ac
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: tg_walk
+      takeName: walk
+      firstFrame: 0
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/Back_0
+        weight: 1
+      - path: Hips/Back_0/Chest
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder/LeftElbow_1
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder/LeftElbow_1/LeftWrist
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1/Head
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1/hair_tale_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1/hair_tale_2/hair_tale_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1/left_s_hair_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1/left_s_hair_2/left_s_hair_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1/right_s_hair_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1/right_s_hair_2/right_s_hair_end
+        weight: 0
+      - path: Hips/Back_0/Chest/RightCollar
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder/RightElbow_1
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder/RightElbow_1/RightWrist
+        weight: 1
+      - path: Hips/LeftHip
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1/LeftAnkle
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1/LeftAnkle/LeftToe
+        weight: 0
+      - path: Hips/RightHip
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1/RightAnkle
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1/RightAnkle/RightToe
+        weight: 0
+      - path: Mesh
+        weight: 0
+      - path: Mesh/body
+        weight: 0
+      - path: Mesh/cloth
+        weight: 0
+      - path: Mesh/cloth2
+        weight: 0
+      - path: Mesh/face
+        weight: 0
+      - path: Mesh/hair
+        weight: 0
+      - path: Mesh/hair2
+        weight: 0
+      - path: Mesh/head_ac
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: tg_walk_back
+      takeName: walk_back
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/Back_0
+        weight: 1
+      - path: Hips/Back_0/Chest
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder/LeftElbow_1
+        weight: 1
+      - path: Hips/Back_0/Chest/LeftCollar/LeftShoulder/LeftElbow_1/LeftWrist
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1/Head
+        weight: 1
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1/hair_tale_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/hair_tale_1/hair_tale_2/hair_tale_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1/left_s_hair_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/left_s_hair_1/left_s_hair_2/left_s_hair_end
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1/right_s_hair_2
+        weight: 0
+      - path: Hips/Back_0/Chest/Neck_1/Head/Head_end/right_s_hair_1/right_s_hair_2/right_s_hair_end
+        weight: 0
+      - path: Hips/Back_0/Chest/RightCollar
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder/RightElbow_1
+        weight: 1
+      - path: Hips/Back_0/Chest/RightCollar/RightShoulder/RightElbow_1/RightWrist
+        weight: 1
+      - path: Hips/LeftHip
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1/LeftAnkle
+        weight: 1
+      - path: Hips/LeftHip/LeftKnee_1/LeftAnkle/LeftToe
+        weight: 0
+      - path: Hips/RightHip
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1/RightAnkle
+        weight: 1
+      - path: Hips/RightHip/RightKnee_1/RightAnkle/RightToe
+        weight: 0
+      - path: Mesh
+        weight: 0
+      - path: Mesh/body
+        weight: 0
+      - path: Mesh/cloth
+        weight: 0
+      - path: Mesh/cloth2
+        weight: 0
+      - path: Mesh/face
+        weight: 0
+      - path: Mesh/hair
+        weight: 0
+      - path: Mesh/hair2
+        weight: 0
+      - path: Mesh/head_ac
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHip
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHip
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftKnee_1
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightKnee_1
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftAnkle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightAnkle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Back_0
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck_1
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftCollar
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightCollar
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftShoulder
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightShoulder
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftElbow_1
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightElbow_1
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftWrist
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightWrist
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: treasure_girl(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: body
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: cloth
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: cloth2
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: face
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hair
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hair2
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_ac
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hips
+      position: {x: 0, y: .592060983, z: -.092659995}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightHip
+      position: {x: .0640180036, y: -.114864998, z: .151762992}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightKnee_1
+      position: {x: .0199670028, y: -.200459003, z: -.00523699727}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightAnkle
+      position: {x: .00819899514, y: -.203712001, z: -.0453649983}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightToe
+      position: {x: .00348400115, y: -.0479689986, z: .204742014}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Back_0
+      position: {x: -0, y: .0102449795, z: .186410993}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Chest
+      position: {x: -0, y: .0838339999, z: -.00308500277}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightCollar
+      position: {x: .0480049998, y: .166786045, z: -.0598559938}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightShoulder
+      position: {x: .0613930039, y: -.00532005308, z: -.00671200035}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightElbow_1
+      position: {x: .161683008, y: -.00354797347, z: -.00491200062}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightWrist
+      position: {x: .115731999, y: -.00305496203, z: -.000707999454}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Neck_1
+      position: {x: -0, y: .177136004, z: -.0536279939}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Head
+      position: {x: -0, y: .0594709776, z: .00169300078}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Head_end
+      position: {x: -0, y: .483521044, z: -.0140830018}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hair_tale_1
+      position: {x: -0, y: .0811520368, z: -.459428996}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hair_tale_2
+      position: {x: .108671993, y: .192455903, z: -.412454009}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hair_tale_end
+      position: {x: -.108671993, y: -.627778888, z: .135755002}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: right_s_hair_1
+      position: {x: .270307004, y: -.410997987, z: -.0209709965}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: right_s_hair_2
+      position: {x: -.0471420102, y: -.147611007, z: .115102001}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: right_s_hair_end
+      position: {x: .0243320074, y: -.193720013, z: -.0109039973}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: left_s_hair_1
+      position: {x: -.236142993, y: -.411495954, z: -.00930999871}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: left_s_hair_2
+      position: {x: -.058810994, y: -.124079056, z: .102657996}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: left_s_hair_end
+      position: {x: .0429220013, y: -.137505949, z: -.0152049921}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftCollar
+      position: {x: -.0480049998, y: .166786045, z: -.0598559938}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftShoulder
+      position: {x: -.0613930039, y: -.00532005308, z: -.00671200035}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftElbow_1
+      position: {x: -.161683008, y: -.00354797347, z: -.00491200062}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftWrist
+      position: {x: -.115731999, y: -.00305496203, z: -.000707999454}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHip
+      position: {x: -.0640180036, y: -.114864998, z: .151762992}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftKnee_1
+      position: {x: -.0199670028, y: -.200459003, z: -.00523699727}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftAnkle
+      position: {x: -.00819899514, y: -.203712001, z: -.0453649983}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftToe
+      position: {x: -.00348400115, y: -.0479689986, z: .204742014}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
