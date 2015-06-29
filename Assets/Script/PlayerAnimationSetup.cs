@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityStandardAssets.CrossPlatformInput;  // モバイルジョイスティック用
 
 public class PlayerAnimationSetup : MonoBehaviour {
     // スライディング時間
@@ -38,8 +39,8 @@ public class PlayerAnimationSetup : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         // キー入力の取得
-        float v = Input.GetAxis("Vertical");
-        float h = Input.GetAxis("Horizontal");
+        float v = CrossPlatformInputManager.GetAxis("Vertical");
+        float h = CrossPlatformInputManager.GetAxis("Horizontal");
         bool isJump = Input.GetKey(KeyCode.Space);
         bool isSliding = Input.GetKey(KeyCode.C);
 

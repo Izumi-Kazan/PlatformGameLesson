@@ -3,8 +3,8 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 namespace UnityStandardAssets.CrossPlatformInput
-{
-	public class Joystick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
+{//, IPointerDownHandler, IPointerUpHandler
+	public class Joystick : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 	{
 		public enum AxisOption
 		{
@@ -24,10 +24,17 @@ namespace UnityStandardAssets.CrossPlatformInput
 		bool m_UseY; // Toggle for using the Y axis
 		CrossPlatformInputManager.VirtualAxis m_HorizontalVirtualAxis; // Reference to the joystick in the cross platform input
 		CrossPlatformInputManager.VirtualAxis m_VerticalVirtualAxis; // Reference to the joystick in the cross platform input
+		
+		// 追加
+		void Start() {
+			m_StartPos = transform.position;
+			//  CreateVirtualAxes();
+		}
 
 		void OnEnable()
 		{
-			m_StartPos = transform.position;
+			// 修正
+			//  m_StartPos = transform.position;
 			CreateVirtualAxes();
 		}
 
@@ -65,12 +72,16 @@ namespace UnityStandardAssets.CrossPlatformInput
 				CrossPlatformInputManager.RegisterVirtualAxis(m_VerticalVirtualAxis);
 			}
 		}
-
+		
+		public void OnBeginDrag( PointerEventData data ) {}
 
 		public void OnDrag(PointerEventData data)
 		{
+			int desitionX = Mathf.Abs((int)(data.position.x - m_StartPos.x));
+			int desitionY = Mathf.Abs((int)(data.position.y - m_StartPos.y));
+			if ( (desitionX - MovementRange) > 0 || (desitionY - MovementRange) > 0 ) return;
+			
 			Vector3 newPos = Vector3.zero;
-
 			if (m_UseX)
 			{
 				int delta = (int)(data.position.x - m_StartPos.x);
@@ -87,16 +98,21 @@ namespace UnityStandardAssets.CrossPlatformInput
 			transform.position = new Vector3(m_StartPos.x + newPos.x, m_StartPos.y + newPos.y, m_StartPos.z + newPos.z);
 			UpdateVirtualAxes(transform.position);
 		}
-
-
-		public void OnPointerUp(PointerEventData data)
-		{
+		
+		public void OnEndDrag( PointerEventData data ) {
 			transform.position = m_StartPos;
 			UpdateVirtualAxes(m_StartPos);
 		}
 
 
-		public void OnPointerDown(PointerEventData data) { }
+		//  public void OnPointerUp(PointerEventData data)
+		//  {
+		//  	//  transform.position = m_StartPos;
+		//  	//  UpdateVirtualAxes(m_StartPos);
+		//  }
+
+
+		//  public void OnPointerDown(PointerEventData data) { }
 
 		void OnDisable()
 		{
