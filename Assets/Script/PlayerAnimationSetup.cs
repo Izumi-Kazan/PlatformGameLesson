@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityStandardAssets.CrossPlatformInput;  // モバイルジョイスティック用
+using UnitySampleAssets.CrossPlatformInput;  // モバイルジョイスティック用
 
 public class PlayerAnimationSetup : MonoBehaviour {
     // スライディング時間
