@@ -14,6 +14,8 @@ public class PlayerAnimationSetup : MonoBehaviour {
 
     // スライディング実行時間
     float slidingTimeLeft = 0;
+    
+    bool isSliding = false;
 
     // コライダの中心
     Vector3 colliderCenter;
@@ -36,13 +38,26 @@ public class PlayerAnimationSetup : MonoBehaviour {
         animator = GetComponent<Animator>();
 	}
 	
+    // ボタンからコールするよう。スライディング
+    void Sliding () {
+        isSliding = true;
+    }
+    
 	// Update is called once per frame
 	void Update () {
         // キー入力の取得
-        float v = CrossPlatformInputManager.GetAxis("Vertical");
-        float h = CrossPlatformInputManager.GetAxis("Horizontal");
+        #if UNITY_IPHONE || UNITY_ANDROID
+            float v = CrossPlatformInputManager.GetAxis("Vertical");
+            float h = CrossPlatformInputManager.GetAxis("Horizontal");
+            //  bool isJump = CrossPlatformInputManager.GetKey(KeyCode.Space);
+            //  bool isSliding = CrossPlatformInputManager.GetKey(KeyCode.C);
+        #else
+            float v = Input.GetAxis("Vertical");
+            float h = Input.GetAxis("Horizontal");
+        #endif
+        
         bool isJump = Input.GetKey(KeyCode.Space);
-        bool isSliding = Input.GetKey(KeyCode.C);
+        isSliding = Input.GetKey(KeyCode.C);
 
         // TreasureControllerにパラメータをセット：メカニムのアニメーションステートを遷移する
         animator.SetBool("isGround", characterController.isGrounded);
@@ -88,6 +103,7 @@ public class PlayerAnimationSetup : MonoBehaviour {
             characterController.height = colliderHeight * 0.5f;
         } else
         {
+            isSliding = false;
             // スライディング状態ではない時は、コライダの中心位置および高さを初期値に戻す
             characterController.center = colliderCenter;
             characterController.height = colliderHeight;
