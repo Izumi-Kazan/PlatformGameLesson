@@ -66,6 +66,11 @@ public class Joystick : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 
 
     public  void OnDrag(PointerEventData data) {
+        
+        if ( Mathf.Abs( data.position.x - startPos.x ) > MovementRange || Mathf.Abs( data.position.y - startPos.y ) > MovementRange ) {
+            //  isDragging = false;
+            return;
+        }
 		
         Vector3 newPos = Vector3.zero;
 
@@ -99,6 +104,7 @@ public class Joystick : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     ///</summary>
     public bool IsRaycastLocationValid( Vector2 sp, Camera eventCamera ) {
         //  return Vector2.Distance(sp, transform.position) < 20.0f;
+        Debug.Log( "Raycast" );
         return !isDragging;
     }
 
