@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
+using System.Collections;
 using UnityEngine.EventSystems;
 using UnitySampleAssets.CrossPlatformInput;
 
-public class Joystick : MonoBehaviour , IPointerUpHandler , IPointerDownHandler , IDragHandler {
+//　, IPointerUpHandler , IPointerDownHandler
+public class Joystick : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, ICanvasRaycastFilter {
 
     public int MovementRange = 100;
 
@@ -22,7 +24,10 @@ public class Joystick : MonoBehaviour , IPointerUpHandler , IPointerDownHandler 
     private bool useY;                                                          // Toggle for using the Y axis
     private CrossPlatformInputManager.VirtualAxis horizontalVirtualAxis;               // Reference to the joystick in the cross platform input
     private CrossPlatformInputManager.VirtualAxis verticalVirtualAxis;                 // Reference to the joystick in the cross platform input
-      
+    
+    // ドラッグフラグ
+    bool isDragging = false;
+    
     void Start () {
 
         startPos = transform.position;
@@ -54,10 +59,14 @@ public class Joystick : MonoBehaviour , IPointerUpHandler , IPointerDownHandler 
         if (useY)
             verticalVirtualAxis = new CrossPlatformInputManager.VirtualAxis(verticalAxisName);
     }
+    
+    public void OnBeginDrag( PointerEventData data ) {
+        isDragging = true;
+    }
 
 
     public  void OnDrag(PointerEventData data) {
-
+		
         Vector3 newPos = Vector3.zero;
 
         if (useX) {
@@ -77,15 +86,24 @@ public class Joystick : MonoBehaviour , IPointerUpHandler , IPointerDownHandler 
     }
 
 
-    public  void OnPointerUp(PointerEventData data)
+    public  void OnEndDrag (PointerEventData data)
     {
         transform.position = startPos;
         UpdateVirtualAxes (startPos);
+        //
+        isDragging = false;
+    }
+    
+    ///<summary>
+    ///
+    ///</summary>
+    public bool IsRaycastLocationValid( Vector2 sp, Camera eventCamera ) {
+        //  return Vector2.Distance(sp, transform.position) < 20.0f;
+        return !isDragging;
     }
 
 
-    public  void OnPointerDown (PointerEventData data) {
-    }
+    //  public  void OnPointerDown (PointerEventData data) {}
 
     void OnDisable () {
         // remove the joysticks from the cross platform input
