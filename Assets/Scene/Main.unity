@@ -516,11 +516,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: 2b3c3cd7bff51de44937f1659db6daca, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 86.8000031
+      value: 77.4000015
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: 2b3c3cd7bff51de44937f1659db6daca, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 78.6999969
+      value: 77.4000015
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 2b3c3cd7bff51de44937f1659db6daca, type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -562,6 +562,22 @@ Prefab:
       propertyPath: m_Delegates.Array.data[1].callback.m_TypeName
       value: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0,
         Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 22400000, guid: 2b3c3cd7bff51de44937f1659db6daca, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -67.5999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 22400000, guid: 2b3c3cd7bff51de44937f1659db6daca, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 119.900002
+      objectReference: {fileID: 0}
+    - target: {fileID: 22400000, guid: 2b3c3cd7bff51de44937f1659db6daca, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 28.1000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 22400000, guid: 2b3c3cd7bff51de44937f1659db6daca, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 32.2999992
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b3c3cd7bff51de44937f1659db6daca, type: 2}
@@ -786,6 +802,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
+--- !u!1 &857721909 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: 2b3c3cd7bff51de44937f1659db6daca, type: 2}
+  m_PrefabInternal: {fileID: 159844359}
+--- !u!225 &857721910
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 857721909}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1615648446
 GameObject:
   m_ObjectHideFlags: 0

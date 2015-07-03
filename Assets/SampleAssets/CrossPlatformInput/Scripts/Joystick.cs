@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.EventSystems;
 using UnitySampleAssets.CrossPlatformInput;
 
 //　, IPointerUpHandler , IPointerDownHandler
-public class Joystick : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, ICanvasRaycastFilter {
+public class Joystick : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler/*, ICanvasRaycastFilter*/ {
 
     public int MovementRange = 100;
 
@@ -28,10 +29,13 @@ public class Joystick : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     // ドラッグフラグ
     bool isDragging = false;
     
+    CanvasGroup canvasGroup;
+    
     void Start () {
-
         startPos = transform.position;
         CreateVirtualAxes ();
+        //
+        canvasGroup = GetComponent<CanvasGroup>();
     }
 
     private void UpdateVirtualAxes (Vector3 value) {
@@ -39,11 +43,9 @@ public class Joystick : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         var delta = startPos - value;
         delta.y = -delta.y;
         delta /= MovementRange;
-        if(useX)
-        horizontalVirtualAxis.Update (-delta.x);
-
-        if(useY)
-        verticalVirtualAxis.Update (delta.y);
+        
+        if(useX) horizontalVirtualAxis.Update (-delta.x);
+        if(useY) verticalVirtualAxis.Update (delta.y);
 
     }
 
@@ -54,10 +56,8 @@ public class Joystick : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         useY = (axesToUse == AxisOption.Both || axesToUse == AxisOption.OnlyVertical);
 
         // create new axes based on axes to use
-        if (useX)
-            horizontalVirtualAxis = new CrossPlatformInputManager.VirtualAxis(horizontalAxisName);
-        if (useY)
-            verticalVirtualAxis = new CrossPlatformInputManager.VirtualAxis(verticalAxisName);
+        if (useX) horizontalVirtualAxis = new CrossPlatformInputManager.VirtualAxis(horizontalAxisName);
+        if (useY) verticalVirtualAxis = new CrossPlatformInputManager.VirtualAxis(verticalAxisName);
     }
     
     public void OnBeginDrag( PointerEventData data ) {
@@ -67,10 +67,7 @@ public class Joystick : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 
     public  void OnDrag(PointerEventData data) {
         
-        if ( Mathf.Abs( data.position.x - startPos.x ) > MovementRange || Mathf.Abs( data.position.y - startPos.y ) > MovementRange ) {
-            //  isDragging = false;
-            return;
-        }
+        if ( Mathf.Abs( data.position.x - startPos.x ) > MovementRange || Mathf.Abs( data.position.y - startPos.y ) > MovementRange ) return;
 		
         Vector3 newPos = Vector3.zero;
 
@@ -80,14 +77,16 @@ public class Joystick : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
             newPos.x = delta;
         }
 
-        if (useY)
-        {
+        if (useY) {
             int delta = (int)(data.position.y - startPos.y);
             delta = Mathf.Clamp(delta, -MovementRange,  MovementRange);
             newPos.y = delta;
         }
         transform.position = new Vector3(startPos.x + newPos.x , startPos.y + newPos.y , startPos.z + newPos.z);
         UpdateVirtualAxes (transform.position);
+        
+        //
+        canvasGroup.blocksRaycasts = false;
     }
 
 
@@ -97,24 +96,27 @@ public class Joystick : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         UpdateVirtualAxes (startPos);
         //
         isDragging = false;
+        
+        //
+        canvasGroup.blocksRaycasts = true;
+        
     }
     
     ///<summary>
     ///
     ///</summary>
-    public bool IsRaycastLocationValid( Vector2 sp, Camera eventCamera ) {
-        //  return Vector2.Distance(sp, transform.position) < 20.0f;
-        Debug.Log( "Raycast" );
-        return !isDragging;
-    }
+    //  public bool IsRaycastLocationValid( Vector2 sp, Camera eventCamera ) {
+    //      //  return Vector2.Distance(sp, transform.position) < 20.0f;
+    //      Debug.Log( "Raycast" );
+    //      return true;
+    //  }
 
 
     //  public  void OnPointerDown (PointerEventData data) {}
 
     void OnDisable () {
         // remove the joysticks from the cross platform input
-        if (useX)
-        {
+        if (useX) {
             horizontalVirtualAxis.Remove();
         }
         if (useY)
