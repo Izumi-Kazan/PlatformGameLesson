@@ -63,6 +63,9 @@
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Locomotion Setup\Locomotion\Scripts\Locomotion.cs" />
@@ -94,6 +97,9 @@
     <Compile Include="Assets\Script\GameController.cs" />
     <Compile Include="Assets\Script\PlayerAnimationSetup.cs" />
     <Compile Include="Assets\Script\PlayerControllerSetup.cs" />
+    <Compile Include="Assets\Script\SmoothFollow.cs" />
+    <Compile Include="Assets\Script\SoundEffect.cs" />
+    <Compile Include="Assets\Script\TrapEvent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SampleAssets\Cameras\CameraGuidelines.txt" />

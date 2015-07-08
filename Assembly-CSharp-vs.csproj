@@ -80,8 +80,13 @@
     <Compile Include="Assets\Script\PlayerAnimationSetup.cs" />
     <Compile Include="Assets\Script\PlayerControllerSetup.cs" />
     <Compile Include="Assets\Script\SmoothFollow.cs" />
+    <Compile Include="Assets\Script\SoundEffect.cs" />
+    <Compile Include="Assets\Script\TrapEvent.cs" />
     <None Include="Assets\SampleAssets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\SampleAssets\Cameras\CameraGuidelines.txt" />
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>L:/myDocument/5_Unity/Projects/_GitHab/PlatformGameLesson/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>L:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>

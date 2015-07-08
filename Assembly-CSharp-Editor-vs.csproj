@@ -54,6 +54,9 @@
     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\Editor\InputAxisScrollbarCI.cs" />
     <None Include="Assets\SampleAssets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\SampleAssets\Cameras\CameraGuidelines.txt" />
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>L:/myDocument/5_Unity/Projects/_GitHab/PlatformGameLesson/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
     <Reference Include="Assembly-UnityScript">
       <HintPath>L:/myDocument/5_Unity/Projects/_GitHab/PlatformGameLesson/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
     </Reference>

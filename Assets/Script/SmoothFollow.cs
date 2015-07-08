@@ -18,7 +18,7 @@ public class SmoothFollow : MonoBehaviour
     */
 
     // The target we are following
-    Transform target;
+    public Transform target;
     // The distance in the x-z plane to the target
     public float distance = 2.75f;
     // the height we want the camera to be above the target
@@ -29,14 +29,13 @@ public class SmoothFollow : MonoBehaviour
     public float lookAtAngle = 0.0f;
 
     // Place the script in the Camera-Control group in the component menu
-   // @script AddComponentMenu("Camera-Control/Smooth Follow")
+    // @script AddComponentMenu("Camera-Control/Smooth Follow")
 
 
-void LateUpdate()
+    void LateUpdate()
     {
         // Early out if we don't have a target
-        if (!target)
-            return;
+        if (!target) return;
 
         // Calculate the current rotation angles
         float wantedRotationAngle = target.eulerAngles.y;
@@ -60,7 +59,7 @@ void LateUpdate()
         transform.position -= currentRotation * Vector3.forward * distance;
 
         // Set the height of the camera
-        transform.position.y = currentHeight;
+        transform.position = new Vector3(transform.position.x, currentHeight, transform.position.z);
 
         // Always look at the target
         transform.LookAt(target);

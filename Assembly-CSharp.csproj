@@ -76,6 +76,8 @@
      <Compile Include="Assets\Script\PlayerAnimationSetup.cs" />
      <Compile Include="Assets\Script\PlayerControllerSetup.cs" />
      <Compile Include="Assets\Script\SmoothFollow.cs" />
+     <Compile Include="Assets\Script\SoundEffect.cs" />
+     <Compile Include="Assets\Script\TrapEvent.cs" />
      <None Include="Assets\SampleAssets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\SampleAssets\Cameras\CameraGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
@@ -90,6 +92,10 @@
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>L:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{B91A2146-E7E8-8983-8988-5F54350ECB01}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
