@@ -60,17 +60,24 @@
     <Reference Include="UnityEngine.Analytics">
       <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Locomotion Setup\Locomotion\Scripts\Locomotion.cs" />
+    <Compile Include="Assets\Locomotion Setup\Scripts\JoystickToEvents.cs" />
+    <Compile Include="Assets\Locomotion Setup\Scripts\LocomotionPlayer.cs" />
+    <Compile Include="Assets\Platforms\Scripts\Trap.cs" />
+    <Compile Include="Assets\Platforms\Scripts\Treasure.cs" />
+    <Compile Include="Assets\SampleAssets\Cameras\Scripts\AbstractTargetFollower.cs" />
+    <Compile Include="Assets\SampleAssets\Cameras\Scripts\AutoCam.cs" />
+    <Compile Include="Assets\SampleAssets\Cameras\Scripts\FreeLookCam.cs" />
+    <Compile Include="Assets\SampleAssets\Cameras\Scripts\HandHeldCam.cs" />
+    <Compile Include="Assets\SampleAssets\Cameras\Scripts\LookatTarget.cs" />
+    <Compile Include="Assets\SampleAssets\Cameras\Scripts\PivotBasedCameraRig.cs" />
+    <Compile Include="Assets\SampleAssets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
+    <Compile Include="Assets\SampleAssets\Cameras\Scripts\TargetFieldOfView.cs" />
     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\CameraSwitch.cs" />
@@ -84,11 +91,12 @@
     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\TiltInput.cs" />
     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\TouchPad.cs" />
     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\VirtualInput.cs" />
-    <Compile Include="Assets\Script\MyWebView.cs" />
+    <Compile Include="Assets\Script\GameController.cs" />
     <Compile Include="Assets\Script\PlayerAnimationSetup.cs" />
     <Compile Include="Assets\Script\PlayerControllerSetup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\SampleAssets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\SampleAssets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
