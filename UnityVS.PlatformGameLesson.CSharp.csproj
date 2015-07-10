@@ -68,9 +68,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Locomotion Setup\Locomotion\Scripts\Locomotion.cs" />
-    <Compile Include="Assets\Locomotion Setup\Scripts\JoystickToEvents.cs" />
-    <Compile Include="Assets\Locomotion Setup\Scripts\LocomotionPlayer.cs" />
     <Compile Include="Assets\Platforms\Scripts\Trap.cs" />
     <Compile Include="Assets\Platforms\Scripts\Treasure.cs" />
     <Compile Include="Assets\SampleAssets\Cameras\Scripts\AbstractTargetFollower.cs" />
