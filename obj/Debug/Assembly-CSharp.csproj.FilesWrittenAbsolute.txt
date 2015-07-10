@@ -19,3 +19,4 @@
 /Users/shimizu_new/Documents/UNITY/Repository4Unity5/PlatformGameLesson/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/shimizu_new/Documents/UNITY/Repository4Unity5/PlatformGameLesson/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/shimizu_new/Documents/UNITY/Repository4Unity5/PlatformGameLesson/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/shimizu_new/Documents/UNITY/Repository4Unity5/PlatformGameLesson/Temp/bin/Debug/Assembly-UnityScript-firstpass.dll
