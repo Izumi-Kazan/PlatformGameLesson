@@ -1,0 +1,16 @@
+/Users/shimizu_new/Documents/UNITY/Repository4Unity5/PlatformGameLesson/Temp/bin/Debug/UnityEngine.dll
+/Users/shimizu_new/Documents/UNITY/Repository4Unity5/PlatformGameLesson/Temp/bin/Debug/UnityEditor.dll
+/Users/shimizu_new/Documents/UNITY/Repository4Unity5/PlatformGameLesson/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/shimizu_new/Documents/UNITY/Repository4Unity5/PlatformGameLesson/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/shimizu_new/Documents/UNITY/Repository4Unity5/PlatformGameLesson/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/shimizu_new/Documents/UNITY/Repository4Unity5/PlatformGameLesson/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.dll
+/Users/shimizu_new/Documents/UNITY/Repository4Unity5/PlatformGameLesson/Temp/bin/Debug/Mono.Cecil.dll
+/Users/shimizu_new/Documents/UNITY/Repository4Unity5/PlatformGameLesson/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/shimizu_new/Documents/UNITY/Repository4Unity5/PlatformGameLesson/Temp/bin/Debug/Unity.DataContract.dll
+/Users/shimizu_new/Documents/UNITY/Repository4Unity5/PlatformGameLesson/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/shimizu_new/Documents/UNITY/Repository4Unity5/PlatformGameLesson/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/shimizu_new/Documents/UNITY/Repository4Unity5/PlatformGameLesson/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/shimizu_new/Documents/UNITY/Repository4Unity5/PlatformGameLesson/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/shimizu_new/Documents/UNITY/Repository4Unity5/PlatformGameLesson/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/shimizu_new/Documents/UNITY/Repository4Unity5/PlatformGameLesson/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/shimizu_new/Documents/UNITY/Repository4Unity5/PlatformGameLesson/Temp/bin/Debug/Assembly-UnityScript-firstpass.dll
