@@ -99,8 +99,9 @@ Animation:
   m_GameObject: {fileID: 461309993}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 3928153bf3eb86049acb33f89ba406b0, type: 2}
-  m_Animations: []
+  m_Animation: {fileID: 7400000, guid: c0fc5bf8518b70b468bc747ce7794efc, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: c0fc5bf8518b70b468bc747ce7794efc, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -929,3 +930,15 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &1770250003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1770250000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71b43680188657c40a242573d86c14b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 461309993}
